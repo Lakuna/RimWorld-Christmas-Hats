@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef Name="ChristmasHat" ParentName="HatMakeableBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<generateCommonality>0.5</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<statBases>
+			<Beauty>3</Beauty>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.07</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<ThingDef ParentName="ChristmasHat">
+		<defName>Apparel_SantaHat</defName>
+		<label>santa hat</label>
+		<description>A festive Santa Claus hat!</description>
+		<graphicData>
+			<texPath>Things/SantaHat/SantaHat</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/SantaHat/SantaHat</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ChristmasHat">
+		<defName>Apparel_ElfHat</defName>
+		<label>elf hat</label>
+		<description>A festive elf hat!</description>
+		<graphicData>
+			<texPath>Things/ElfHat/ElfHat</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/ElfHat/ElfHat</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+</Defs>
