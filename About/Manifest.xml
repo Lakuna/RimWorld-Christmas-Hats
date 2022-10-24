@@ -2,7 +2,7 @@
 
 <Manifest>
 	<identifier>ChristmasHats</identifier>
-	<version>2.0.0.0</version>
+	<version>3.0.0.0</version>
 	<showCrossPromotions>true</showCrossPromotions>
 	<manifestUri>https://github.com/Lakuna/RimWorld-Christmas-Hatts/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/Lakuna/RimWorld-Christmas-Hats/releases/latest</downloadUri>
