@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <Manifest>
 	<identifier>ChristmasHats</identifier>
 	<version>3.0.0.0</version>
 	<showCrossPromotions>true</showCrossPromotions>
-	<manifestUri>https://github.com/Lakuna/RimWorld-Christmas-Hatts/About/Manifest.xml</manifestUri>
+	<manifestUri>https://raw.githubusercontent.com/Lakuna/RimWorld-Christmas-Hats/master/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/Lakuna/RimWorld-Christmas-Hats/releases/latest</downloadUri>
 </Manifest>
